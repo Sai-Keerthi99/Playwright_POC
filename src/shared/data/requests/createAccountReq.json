@@ -1,0 +1,41 @@
+{
+    "data": {
+        "attributes": {
+            "initialAccountHolder": {
+                "accountingContact": true,
+                "companyName": "chandu srinivas",
+                "contactSubtype": "Company",
+                "primaryAddress": {
+                    "addressLine1": "Tma lane 3",
+                    "city": "TestCity",
+                    "country": "US",
+                    "postalCode": "123456",
+                    "state": {
+                        "code": "AZ",
+                        "name": "AZ"
+                    }
+                }
+            },
+            "initialPrimaryLocation": {
+                "addressLine1": "Tma lane 3",
+                "addressType": {
+                    "code": "business",
+                    "name": "Business"
+                },
+                "city": "Absarokee",
+                "country": "US",
+                "postalCode": "123456",
+                "state": {
+                    "code": "AZ",
+                    "name": "AZ"
+                }
+            },
+            "producerCodes": [
+                {
+                    "displayName": "301-008578",
+                    "id": "pc:16"
+                }
+            ]
+        }
+    }
+}

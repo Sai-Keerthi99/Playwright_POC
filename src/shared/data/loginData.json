@@ -1,0 +1,7 @@
+{
+    "userName" : "su",
+    "password" : "gw",
+    "inCorrectUsername" : "use",
+    "inCorrectPassword" : "abs",
+    "URL" : "http://localhost:8180/pc/PolicyCenter.do"
+}

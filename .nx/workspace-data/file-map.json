@@ -1,0 +1,81 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.5.2",
+  "deps": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.11",
+    "nx": "19.5.2",
+    "@nx/playwright": "19.5.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "playwrightpoc": [
+        {
+          "file": ".github/workflows/playwright.yml",
+          "hash": "7345917483106444666"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "11920314075408165302"
+        },
+        {
+          "file": "nx.json",
+          "hash": "2933536800231048536"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "14655170557179438769"
+        },
+        {
+          "file": "package.json",
+          "hash": "7145896191880237119",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@types/node",
+            "npm:nx",
+            "npm:@nx/playwright"
+          ]
+        },
+        {
+          "file": "playwright.config.ts",
+          "hash": "6993516861595619282"
+        },
+        {
+          "file": "src/shared/data/accountDetails.json",
+          "hash": "2163274864618484182"
+        },
+        {
+          "file": "src/shared/data/loginData.json",
+          "hash": "12606551647872215415"
+        },
+        {
+          "file": "src/shared/fixtures/base.ts",
+          "hash": "6844565726316552771"
+        },
+        {
+          "file": "src/shared/pages/accountPage.ts",
+          "hash": "15719716883369025012"
+        },
+        {
+          "file": "src/shared/pages/loginPage.ts",
+          "hash": "15049392227232934660"
+        },
+        {
+          "file": "src/tests/TC01.spec.ts",
+          "hash": "10161976024265061728"
+        },
+        {
+          "file": "src/tests/TC02_UserAccountCreation.spec.ts",
+          "hash": "4142751628006588482"
+        },
+        {
+          "file": "tests-examples/demo-todo-app.spec.ts",
+          "hash": "13973616847565710952"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

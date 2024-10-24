@@ -1,0 +1,110 @@
+{
+  "count": 1,
+  "data": [
+    {
+      "attributes": {
+        "accountHolder": {
+          "displayName": "Wright Construction",
+          "id": "test_pc:1",
+          "type": "AccountContact",
+          "uri": "/account/v1/accounts/pc:ds:1/contacts/test_pc:1"
+        },
+        "accountNumber": "C000212105",
+        "accountStatus": {
+          "code": "Active",
+          "name": "Active"
+        },
+        "businessOperationsDescription": "business description",
+        "createdDate": "2024-06-04T04:22:43.346Z",
+        "frozen": false,
+        "id": "pc:ds:1",
+        "industryCode": {
+          "code": "1522",
+          "description": "General Contractors-Residential Building, Other Than Single-Family (except hotel and motel\n      construction)",
+          "id": "SIC:1522"
+        },
+        "numberOfContacts": "8",
+        "organizationType": {
+          "code": "commonownership",
+          "name": "Common ownership"
+        },
+        "preferredCoverageCurrency": {
+          "code": "usd",
+          "name": "USD"
+        },
+        "preferredSettlementCurrency": {
+          "code": "usd",
+          "name": "USD"
+        },
+        "primaryLanguage": {
+          "code": "en_US",
+          "name": "English (US)"
+        },
+        "primaryLocale": {
+          "code": "en_US",
+          "name": "United States (English)"
+        },
+        "primaryLocation": {
+          "displayName": "2: 846 Yount Ln., Hollywood, CA",
+          "id": "pc:S09Q6PrcbCWWJsah8kwDg",
+          "type": "AccountLocation",
+          "uri": "/account/v1/accounts/pc:ds:1/locations/pc:S09Q6PrcbCWWJsah8kwDg"
+        },
+        "producerCodes": [
+          {
+            "displayName": "100-002541",
+            "id": "pc:6"
+          }
+        ]
+      },
+      "checksum": "2",
+      "links": {
+        "do-not-destroy": {
+          "href": "/account/v1/accounts/pc:ds:1/do-not-destroy",
+          "methods": [
+            "post"
+          ]
+        },
+        "freeze": {
+          "href": "/account/v1/accounts/pc:ds:1/freeze",
+          "methods": [
+            "post"
+          ]
+        },
+        "merge": {
+          "href": "/account/v1/accounts/pc:ds:1/merge",
+          "methods": [
+            "post"
+          ]
+        },
+        "move-policies": {
+          "href": "/account/v1/accounts/pc:ds:1/move-policies",
+          "methods": [
+            "post"
+          ]
+        },
+        "self": {
+          "href": "/account/v1/accounts/pc:ds:1",
+          "methods": [
+            "get",
+            "patch"
+          ]
+        }
+      }
+    }
+  ],
+  "links": {
+    "first": {
+      "href": "/account/v1/accounts?filter=accountNumber%3Aeq%3AC000212105",
+      "methods": [
+        "get"
+      ]
+    },
+    "self": {
+      "href": "/account/v1/accounts?filter=accountNumber%3Aeq%3AC000212105",
+      "methods": [
+        "get"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID-8180",
+      "value": "node0tktn702rclki1qqepagzjutgi202.node0",
+      "domain": "localhost",
+      "path": "/pc",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:8180",
+      "localStorage": [
+        {
+          "name": "unsharded:pc:su",
+          "value": "{\"WestPanel\":{\"lastActive\":[\"Desktop-MenuLinks-Desktop_Underwriter_MySummary\"]},\"formEditValuesById\":{\"\":{}},\"currentEditControllers\":[\"\"],\"gwPanelRef\":{\"\":{\"collapsed\":false}},\"currentFocusSelector\":\"#Desktop-DesktopMenuActions > .gw-action--inner\"}"
+        }
+      ]
+    }
+  ]
+}
